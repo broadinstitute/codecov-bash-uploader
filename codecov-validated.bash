@@ -8,4 +8,4 @@ do
   diff <(shasum -a $i codecov) <(curl -s "https://raw.githubusercontent.com/codecov/codecov-bash/${CODECOV_VERSION}/SHA${i}SUM") \
   || { echo "CodeCov checksum validation failed!" >&2; exit 1; }
 done
-bash <codecov -t "${CODECOV_TOKEN}"
+bash codecov
