@@ -4,5 +4,5 @@ Verified CodeCov Bash Uploader script in light of https://about.codecov.io/secur
 
 ## Usage
 ```
-bash <(curl -s https://raw.githubusercontent.com/broadinstitute/codecov-bash-uploader/main/codecov-validated.bash)
+bash <(curl -s https://raw.githubusercontent.com/broadinstitute/codecov-bash-uploader/main/codecov-verified.bash)
 ```
